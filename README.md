@@ -3,6 +3,10 @@ Exploratory data visualisation of Airbnb listings and residential rental propert
 
 This is my first Python program. It uses Airbnb data from [Inside Airbnb](http://insideairbnb.com/get-the-data) and rental data from [Stats NZ](https://nzdotstat.stats.govt.nz/wbos/Index.aspx) to map the counts and median prices of Airbnb listings and residential rental properties.
 
+Please note that airbnb_data.csv and shapefiles.zip are missing from the input folder due to their size. You can download the Airbnb data [here](http://data.insideairbnb.com/new-zealand/2023-09-02/data/listings.csv.gz), and the shapefile folder [here](https://datafinder.stats.govt.nz/layer/95065-statistical-area-2-higher-geographies-2018-generalised/).
+
+The output folder does not contain all possible outputs, but rather an example for each of the six map types.
+
 **How to use the program:**
 
 When using the program with the included datasets, all the user needs to do is run `main()` and follow the prompts to enter the relevant filenames, city, and their chosen filename prefix in order to get an HTML file of each map type. If desired, they could comment out certain map types they do not want.
